@@ -695,17 +695,17 @@ nav{
         height: 250px;
     }
 
-    .overview-container, .upcoming-container, .inspo-container, .staytuned-container{
+    .overview-container, .upcoming-container, .billboard-container, .webbyaward-container .inspo-container, .staytuned-container{
         flex-direction: column;
         padding: 20px;
     }
-    .overview-content, .upcoming-content, .inspo-content, .staytuned-content{
+    .overview-content, .upcoming-content, .billboard-content, .webbyaward-content, .inspo-content, .staytuned-content{
         padding: 20px;
         text-align: center;
         font-size: 1.1rem;
     }
 
-    .overview-cover, .upcoming-cover, .inspo-cover, .staytuned-cover{
+    .overview-cover, .upcoming-cover, .inspo-cover, .staytuned-cover, .billboard-cover, .webbyaward-cover{
         height: 300px;
     }
 }
@@ -730,6 +730,5 @@ nav{
         width: 200px;
         height: 200px;
     }
-
 }
 
