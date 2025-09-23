@@ -517,6 +517,14 @@ nav{
     justify-content: center;
 }
 
+.albums{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
 
 .first-album-container{
     margin-bottom: 15px;
@@ -745,4 +753,5 @@ nav{
         width: 200px;
         height: 200px;
     }
+
 }
