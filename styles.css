@@ -312,6 +312,41 @@ nav{
     margin-bottom: 20px;
 }
 
+.social-container{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-content{
+    max-width: 600px;
+    padding: 40px;
+    line-height: 2;
+    font-size: 1.3rem;
+}
+
+.social-content h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f8d7a3;
+    text-shadow: 6px 6px 0px#bf7602,
+    8px 8px 0px #bf7602;
+}
+
+blockquote{
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-bottom: 50px;
+}
+
+
 .music-player{ 
     margin: 40px; 
     padding: 20px; 
@@ -706,11 +741,11 @@ nav{
         gap: 30px;
     }
 
-    .overview-container, .upcoming-container, .first-album-container, .second-album-container, .billboard-container, .webbyaward-container .inspo-container, .staytuned-container{
+    .overview-container, .upcoming-container, .social-container, .first-album-container, .second-album-container, .billboard-container, .webbyaward-container .inspo-container, .staytuned-container{
         flex-direction: column;
         padding: 20px;
     }
-    .overview-content, .upcoming-content, .billboard-content, .webbyaward-content, .inspo-content, .staytuned-content{
+    .overview-content, .upcoming-content, .social-content, .billboard-content, .webbyaward-content, .inspo-content, .staytuned-content{
         padding: 20px;
         text-align: center;
         font-size: 1.1rem;
@@ -764,5 +799,4 @@ nav{
         width: 100%;
         max-width: 400px;
     }
-
 }
